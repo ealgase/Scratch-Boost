@@ -6,11 +6,11 @@
     ext.pi = function(){return Math.PI}
     ext.e = function(){return Math.E}
     ext.math = function(num1,operation,num2){
-        if operation=='+'{return num1+num2}
-        if operation=='-'{return num1-num2}
-        if operation=='*'{return num1*num2}
-        if operation=='/'{return num1/num2}
-        if operation=='^'{return Math.pow(num1,num2)}
+        if (operation=='+'){return num1+num2}
+        if (operation=='-'){return num1-num2}
+        if (operation=='*'){return num1*num2}
+        if (operation=='/'){return num1/num2}
+        if (operation=='^'){return Math.pow(num1,num2)}
     };
     var descriptor = {
         blocks: [
