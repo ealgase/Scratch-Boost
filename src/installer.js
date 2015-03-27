@@ -12,7 +12,7 @@ var inf = "";
 function info() {
     if (inf === "") {
         inf = $("#info").html();
-        $("#info").html('<div class="dynamic"><div class="text-block"><b>Scratch Boost Info</b><div class="read-only instructions" style="height: 161.5px;"><p>Scratch Boost by: Iwotastic<br />View on <a href="https://github.com/Ealgase/Scratch-Boost">GitHub</a><br /><br />Forked by Ealgase<br />You are using the sandbox version of Scratch Boost.  Some of the blocks may not work correctly.  Head over to <a href=/"ealgase.github.io/">the Scratch Boost installation page</a> to get the finished product.');    
+        $("#info").html('<div class="dynamic"><div class="text-block"><b>Scratch Boost Info</b><div class="read-only instructions" style="height: 161.5px;"><p>Scratch Boost by: Iwotastic<br />View on <a href="https://github.com/Ealgase/Scratch-Boost">GitHub</a><br /><br />Forked by Ealgase<br />You are using the sandbox version of Scratch Boost.  Some of the blocks may not work correctly.  Head over to <a href="http://ealgase.github.io/Scratch-Boost">the Scratch Boost installation page</a> to get the finished product.');    
       }else{
         $("#info").html(inf);
         inf = "";
