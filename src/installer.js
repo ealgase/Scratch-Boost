@@ -1,12 +1,13 @@
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/strings.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/scratch.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/misc.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/local.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/jscript.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/browser.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/color.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/jsmath.js');
-ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/sandbox/src/follow.js')
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/strings.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/scratch.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/misc.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/local.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/jscript.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/browser.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/color.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/jsmath.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/comments.js');
+ScratchExtensions.loadExternalJS('https://rawgit.com/Ealgase/Scratch-Boost/master/src/follow.js')
 $(".box-head > .buttons").append('<div class="button" onclick="info()"><span class="white">Scratch Boost</span></div>');
 var inf = "";
 function info() {
