@@ -17,5 +17,5 @@
         menus: {
         }
     };
-    ScratchExtensions.register('Boost - Colors', descriptor, ext);
+    ScratchExtensions.register('Boost - Colors - Sandbox', descriptor, ext);
 })({}); 
