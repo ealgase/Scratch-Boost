@@ -15,5 +15,5 @@
         menus: {
         }
     };
-    ScratchExtensions.register('Boost - Comments', descriptor, ext);
+    ScratchExtensions.register('Boost - Comments - Sandbox', descriptor, ext);
 })({});
